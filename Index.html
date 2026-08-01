@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laulens Designer - Graphic Designer Pro</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: linear-gradient(135deg, #FF6B6B, #4ECDC4, #FFE66D, #A78BFA); background-size: 400% 400%; animation: gradient 15s ease infinite; color: #fff; }
+    @keyframes gradient { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} }
+    
+    header { text-align: center; padding: 80px 20px; }
+    header h1 { font-size: 3.5rem; text-shadow: 3px 3px 10px rgba(0,0,0,0.3); }
+    header p { font-size: 1.2rem; margin-top: 10px; }
+    
+    .btn { display: inline-block; margin-top: 20px; padding: 15px 35px; background: #fff; color: #FF6B6B; border-radius: 50px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+    .btn:hover { transform: scale(1.1); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+    
+    section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); padding: 30px; border-radius: 20px; text-align: center; transition: 0.3s; }
+    .card:hover { transform: translateY(-10px); background: rgba(255,255,255,0.25); }
+    
+    footer { text-align: center; padding: 30px; background: rgba(0,0,0,0.2); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LAULENS DESIGNER</h1>
+    <p>We Bring Your Ideas to Life with Color & Creativity</p>
+    <a href="#contact" class="btn">Nipate Kazi Yako</a>
+  </header>
+
+  <section>
+    <h2 style="text-align:center; margin-bottom:40px; font-size:2.5rem;">Huduma Zangu</h2>
+    <div class="services">
+      <div class="card">
+        <h3>🎨 Logo Design</h3>
+        <p>Logo za kipekee zinazovutia wateja</p>
+      </div>
+      <div class="card">
+        <h3>📱 Social Media Post</h3>
+        <p>Design za Instagram, Facebook, TikTok</p>
+      </div>
+      <div class="card">
+        <h3>🖨️ Flyer & Poster</h3>
+        <p>Matangazo ya kuvutia kwa biashara yako</p>
+      </div>
+      <div class="card">
+        <h3>💼 Brand Identity</h3>
+        <p>Logo, rangi, na font kwa brand yako</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="text-align:center;">
+    <h2>Nipigie Simu</h2>
+    <p>WhatsApp: +255 624022257</p>
+    <p>Email: laulensmahava1@gmail.com</p>
+    <p>Dar es Salaam, Tanzania</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Laulens Designer. All Rights Reserved. Designed with ❤️</p>
+  </footer>
+
+</body>
+</html>
